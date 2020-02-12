@@ -43,7 +43,11 @@ function updateCounts () {
   }
   
   // WRITE CODE HERE TO COUNT BLUE, GREEN, AND INVISIBLE DOTS
-
+  var myBlue = document.getElementsByClassName('blue')
+  for(var i = 0; i < myBlue.length; i++){
+     totals.blue ++
+    console.log('blue')
+  }
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
 }
