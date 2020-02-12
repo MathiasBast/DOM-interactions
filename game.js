@@ -46,7 +46,14 @@ function updateCounts () {
   var myBlue = document.getElementsByClassName('blue')
   for(var i = 0; i < myBlue.length; i++){
      totals.blue ++
-    console.log('blue')
+  }
+  var myGreen = document.getElementsByClassName('green')
+  for(var i = 0; i < myGreen.length; i++){
+     totals.green ++
+  }
+  var myInvisible = document.getElementsByClassName('invisible')
+  for(var i = 0; i < myInvisible.length; i++){
+     totals.invisible ++
   }
   // Once you've done the counting, this function will update the display
   displayTotals(totals)
